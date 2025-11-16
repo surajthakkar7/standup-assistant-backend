@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import mongoose from 'mongoose';
-import bcrypt from 'bcryptjs';
+import bcrypt from 'bcrypt';
 import Team from '../src/models/Team';
 import Standup from '../src/models/Standup';
 import User from '../src/models/User';
